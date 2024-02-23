@@ -78,12 +78,10 @@ submitBtnEl.addEventListener("click", function(){
         siteUrlErrMsgEl.textContent = "";
     }
     
-    
     if (bookmark.siteName === "" || bookmark.siteUrl === "") {
 
     }
     else{
-        
         bookmark.siteName = siteNameInputEl.value;
         bookmark.siteUrl = siteUrlInputEl.value;
         bookmarksList.push(bookmark);
